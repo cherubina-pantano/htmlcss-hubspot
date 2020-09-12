@@ -115,12 +115,25 @@ font-family: 'Roboto', sans-serif; */
 }
 /* HEADER HERO */
 .header-hero{
-  /* height: 500px; */
-  max-width: 1200px;
+  height: 695px;
+  /* max-width: 1200px; */
+  width: 100%;
   margin: 0 auto;
-  background-color: purple;
+  background-color:  #fff4ef; /*purple;*/
   position: relative;
   /* background-image: url('../img-hubspot.png'); */
+}
+
+.jumbotron {
+  position: absolute;
+  right: 0;
+  width: 90%;
+  min-height: 695px;
+  background: #fff4ef;
+  background-image: url("../img-hubspot/jumbotron.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* .header-hero .jumbotron img{
