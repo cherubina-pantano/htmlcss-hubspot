@@ -114,11 +114,12 @@ font-family: 'Roboto', sans-serif; */
 /* HEADER HERO */
 .header-hero{
   height: 695px;
+  position: relative;
   /* max-width: 1200px; */
   width: 100%;
   margin: 0 auto;
   background-color:  #fff4ef; /*purple;*/
-  position: relative;
+
 }
 
 .jumbotron {
@@ -141,13 +142,15 @@ font-family: 'Roboto', sans-serif; */
   z-index: 1;
   background-color: white;
 }
-.text-hero h1{
+.text-hero h1,
+.section-1 h2{
 font-family: 'Montserrat', sans-serif;
 font-size: 700;
 padding: 0 20px;
 color: #33475b;
 }
-.text-hero p{
+.text-hero p,
+.section-1 p{
 font-family: 'Montserrat', sans-serif;
 font-size: 400;
 padding: 0 10px;
@@ -160,14 +163,34 @@ color: #33475b;
   height: 65px;
   background-color: #afebe4;
   border-top: 3px solid #33475b;
-  border-bottom: 3px solid #33475b;
 }
-
-
-
 
 /*MAIN SECTION 1*/
 /*SEZIONE TOP*/
+main{
+  background-color:  #f5f8fa;
+  border-top: 3px solid #33475b;
+}
+.section-1{
+  position: relative;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color:  lightgrey; /*#f5f8fa;*/
+}
+
+.section-top img{
+  /* position: absolute;
+  left: 50%;
+  transform: translate(-50%); */
+  width: 400px;
+  padding: 20px;
+}
+
+.section-top{
+  text-align: center;
+  padding: 20px;
+}
 /* .section-top{
   width: 300px;
   height: 200px;
