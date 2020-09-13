@@ -18,7 +18,6 @@ font-family: 'Roboto', sans-serif; */
   clear: both;
 }
 .header-over{
-  height: 80px;
   background-color: #f5f8fa;
   /* background-color: red; */
   border-bottom: 1px solid #cbd6e2;
@@ -84,7 +83,6 @@ font-family: 'Roboto', sans-serif; */
   clear: both;
 }
 .header-nav{
-  /* height: 80px; */
   background-color:  #fff; /*pink; */
   /* border-bottom: 1px solid black; */
 }
@@ -121,7 +119,6 @@ font-family: 'Roboto', sans-serif; */
   margin: 0 auto;
   background-color:  #fff4ef; /*purple;*/
   position: relative;
-  /* background-image: url('../img-hubspot.png'); */
 }
 
 .jumbotron {
@@ -136,14 +133,12 @@ font-family: 'Roboto', sans-serif; */
   background-repeat: no-repeat;
 }
 
-/* .header-hero .jumbotron img{
-  transform: translateX(50%);
-} */
 .text-hero{
   position: absolute;
   width: 30%;
   left: 20%;
   margin-top: 20px;
+  z-index: 1;
   background-color: white;
 }
 .text-hero h1{
@@ -157,6 +152,15 @@ font-family: 'Montserrat', sans-serif;
 font-size: 400;
 padding: 0 10px;
 color: #33475b;
+}
+.azzurro{
+  position: absolute;
+  bottom: 0;
+  width: 20%;
+  height: 65px;
+  background-color: #afebe4;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
 }
 
 
