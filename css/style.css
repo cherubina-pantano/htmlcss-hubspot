@@ -561,7 +561,8 @@ footer{
   margin-top: 50px;
   background-color: #33475b;
 }
-.footer-top{
+.footer-top,
+.footer-bottom{
   width: 1200px;
   margin: 0 auto;
 }
@@ -609,11 +610,34 @@ a{
   color: #33475b;
 }
 .footer-ico{
-  padding: 10px;
+  padding: 10px 0;
   font-size: 10px;
 }
 .footer-ico i{
   padding: 10px;
-  font-size: 10px;
   text-align: center;
+}
+.footer-bottom{
+  width: 820px;
+  margin: 0 auto;
+}
+.lista-paesi li{
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+/* FOOTER COPYRIGHT */
+.copyright{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #33475b;
+}
+.copiright::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.copy-left,
+.copy-right{
+  float: left;
 }
