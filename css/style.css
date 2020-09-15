@@ -617,7 +617,7 @@ a{
   padding: 10px;
   text-align: center;
 }
-.footer-bottom{
+.footer-bottom-1{
   width: 820px;
   margin: 0 auto;
 }
@@ -627,7 +627,7 @@ a{
   padding: 20px;
 }
 /* FOOTER COPYRIGHT */
-.copyright{
+/* .copyright{
   width: 1200px;
   margin: 0 auto;
   background-color: #33475b;
@@ -637,7 +637,33 @@ a{
   display: table;
   clear: both;
 }
-.copy-left,
-.copy-right{
+.copy-left{
   float: left;
+}
+.copy-right{
+  float: right;
+} */
+.copyright{
+  position: relative;
+  border-top: 1px solid #fff;
+  padding: 30px;
+}
+.copy-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.copy-left p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+  text-align: left;
+  color: #fff;
+}
+.copy-legal li{
+  display: inline-block;
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
 }
