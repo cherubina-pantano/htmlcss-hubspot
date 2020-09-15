@@ -447,11 +447,11 @@ color: #33475b;
   color: #fff;
 }
 /* SECTION 3 */
-/* SECTION 3 TOP */
 .section-3{
   width: 100%;
   background-color: #fff;
 }
+/* SECTION 3 TOP */
 .section-3-top{
   width: 820px;
   margin: 0 auto;
@@ -477,12 +477,11 @@ color: #33475b;
   margin-bottom: 20px;
   color: #33475b;
 }
-.section-3-top-left {
+.section-3-top-left p{
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 180%;
   margin-bottom: 20px;
-  padding: 20px;
   color: #33475b;
 }
 
@@ -504,4 +503,47 @@ color: #33475b;
 .box-logo-3 img{
   max-width: 100px;
   padding: 10px;
+}
+
+/* SECTION 3 BOTTOM */
+.section-3-bottom{
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+.section-3-bottom::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.section-3-bottom-left,
+.section-3-bottom-right{
+  float: left;
+}
+.section-3-bottom-left{
+ width: 50%;
+ text-align: left;
+}
+.section-3-bottom-left h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #33475b;
+}
+.section-3-bottom-left p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 180%;
+  margin-bottom: 20px;
+  color: #33475b;
+}
+.section-3-bottom-right{
+  position: relative;
+  width: 50%;
+}
+.section-3-bottom-right img{
+  position: absolute;
+  top: 0;
+  right: 0;
+ width: 300px;
 }
